@@ -39,6 +39,7 @@ html {
 body {
 	line-height: 1;
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif; 
 }
 
 div {
@@ -46,6 +47,9 @@ div {
 }
 
 .top-navigation {background-color: #ffffff;
+	position: fixed; 
+	width: 100%; 
+	z-index: 9999; 
 	}
 
 .top-navigation > .content {
@@ -134,6 +138,7 @@ div {
 	vertical-align: bottom; 
 	margin: 0 auto; 
 	margin-top: 1.563rem;
+	margin-bottom: 2em;
 }
 
 
@@ -142,7 +147,86 @@ div {
 	background-color: #F15A29;
 }
 
+.bottom {
+	width: 100%;
+	background-color:#ffffff;
+}
 
+.cases {
+	background-color: #ffffff; 
+	overflow: hidden; 
+	padding-bottom: 5rem; 
+	width: 60%; 
+	margin-left: auto; 
+	margin-right: auto; 
+
+}
+
+.cases .content{
+	background-color: #1d1e21; 
+	padding: none; 
+	text-align: center;
+	margin-top: 7.875rem;	
+}
+
+
+.cases h2 {
+	font-weight: 300;
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem;
+	text-align: center;
+}
+
+
+
+.cases .devices {
+	display: inline-block;
+	border: 1px solid black;
+	height: 20rem; 
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 33.333333%; 
+	float: left;
+
+}
+
+.cases .devices img {
+	margin-left: 30%; 
+}
+
+.cases .devices p {
+	border: 1px solid black;
+	font-size: 1.563em;
+	font-weight: 300;
+	text-align: center;
+}
+
+.social {
+	background-color: #ffffff; 
+	overflow: auto; 
+	padding-bottom:9.375rem; 
+	text-align: center;
+}
+
+.social hr {
+	border: 0; 
+	border-top: 1px solid #eaebec; 
+	margin: 1.313rem 0 .5rem 0;
+}
+
+.social h3 {
+	text-align: center; 
+	font-size: 1.2em; 
+	margin-bottom: 1em;
+	margin-top: 0;
+}
+
+
+.copy {
+	font-size: 1em;
+	color: gray; 
+
+}
 
 ol, ul {
 	list-style: none;
